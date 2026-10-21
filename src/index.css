@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-charcoal: #263343;
+  --color-pink: #E83E78;
+  --color-skyblue: #39A9D5;
+  --color-orange: #FFA51C;
+  --color-green: #7BC84A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #263343;
+  background-color: #FAFAFC;
+  overflow-x: hidden;
+}
+
+.font-serif-heading {
+  font-family: 'Playfair Display', 'Instrument Serif', Georgia, serif;
+}
+
+.font-editorial {
+  font-family: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+}
