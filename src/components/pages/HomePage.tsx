@@ -74,31 +74,8 @@ export const HomePage: React.FC<HomePageProps> = ({
               type="video/mp4"
             />
           </video>
-          {/* Overlays for pristine contrast */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#263343] via-[#263343]/65 to-[#263343]/50" />
-          <div className="absolute inset-0 bg-radial from-transparent via-[#263343]/30 to-[#263343]/85" />
-
-          {/* Animated floating subtle ambient orbs */}
-          <motion.div
-            animate={{
-              scale: [1, 1.25, 1],
-              opacity: [0.15, 0.28, 0.15],
-              x: [0, 30, 0],
-              y: [0, -20, 0],
-            }}
-            transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
-            className="absolute top-1/4 left-1/5 w-96 h-96 rounded-full bg-[#E83E78] blur-3xl pointer-events-none"
-          />
-          <motion.div
-            animate={{
-              scale: [1.2, 1, 1.2],
-              opacity: [0.15, 0.3, 0.15],
-              x: [0, -40, 0],
-              y: [0, 25, 0],
-            }}
-            transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
-            className="absolute bottom-1/3 right-1/6 w-96 h-96 rounded-full bg-[#39A9D5] blur-3xl pointer-events-none"
-          />
+          {/* Soft neutral overlay keeps text readable while showing the video clearly. */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#263343]/70 via-black/15 to-black/10" />
         </div>
 
         {/* Hero Main Content with Staggered Entrance */}
