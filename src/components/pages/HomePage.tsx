@@ -65,11 +65,12 @@ export const HomePage: React.FC<HomePageProps> = ({
             muted
             loop
             playsInline
+            preload="auto"
             className="w-full h-full object-cover object-center scale-105"
-            poster="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80"
+            poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80"
           >
             <source
-              src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260714_113715_c7e0daa0-8bdd-4486-a2da-040901f8f0ea.mp4"
+              src="/tropical-island-travel.mp4"
               type="video/mp4"
             />
           </video>
