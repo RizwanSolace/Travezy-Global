@@ -67,10 +67,10 @@ export const HomePage: React.FC<HomePageProps> = ({
             playsInline
             preload="auto"
             className="w-full h-full object-cover object-center scale-105"
-            poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80"
+            poster="https://images.pexels.com/videos/37262121/pexels-photo-37262121.jpeg?auto=compress&dpr=1&h=750&w=1260"
           >
             <source
-              src="/tropical-island-travel.mp4"
+              src="/airport-takeoff.mp4"
               type="video/mp4"
             />
           </video>
